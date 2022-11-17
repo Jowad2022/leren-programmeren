@@ -17,9 +17,9 @@ totaal_prijs = float(prijs_s + prijs_m + prijs_l)
 
 print(f"""
 =======Bon=======
-Pizza small : {small}
-Pizza medium: {medium}
-Pizza large : {large}
+Pizza small : {small} €{prijs_s}
+Pizza medium: {medium} €{prijs_m}
+Pizza large : {large} €{prijs_l}
 ----------------
 Prijs     : €{totaal_prijs}
 =================
