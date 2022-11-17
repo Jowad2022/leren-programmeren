@@ -1,6 +1,6 @@
-tijd = 0.37 
+prijs_per_5min = 0.37 
 personen = 4
 
-prijs = personen * 7.45 + tijd * (45/5)
+totaal_prijs = personen * 7.45 + prijs_per_5min * (45/5)
 
-print("De prijs voor de speelhal tickets en de VIP vr komt uit op: ", prijs)
+print(f"De prijs voor de speelhal tickets en de VIP vr komt uit op: {totaal_prijs}")
