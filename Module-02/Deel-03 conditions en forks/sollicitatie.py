@@ -29,7 +29,7 @@ ervaring1 = int(input("Hoeveel jaar praktijkservaring heeft u met dieren-dressuu
 ervaring2 = int(input("Hoeveel jaar praktijkservaring heeft u met jongleren? : "))
 ervaring3 = int(input("Hoeveel jaar  praktijkservaring heeft u met acrobatiek? : "))
 
-if (geslacht == "man" and snor =="j" and snor_lengte <= 10) or (geslacht == "vrouw" and haar_kleur == "n" and haar_lengte <=20)and diploma == "j" and rijbewijs == "j" and hoed == "j" and lengte >= 150 and lengte <= 220 and gewicht >= 90 and certificaat == "j" and gewicht <= 120 and ervaring1 >=4 and ervaring2 >=5 and ervaring3 >=3 :
+if (geslacht == "man" and snor =="j" and snor_lengte <= 10 and diploma == "j" and rijbewijs == "j" and hoed == "j" and lengte >= 150 and lengte <= 220 and gewicht >= 90 and certificaat == "j" and gewicht <= 120 and ervaring1 >=4 and ervaring2 >=5 and ervaring3 >=3) or (geslacht == "vrouw" and haar_kleur == "n" and haar_lengte <=20 and diploma == "j" and rijbewijs == "j" and hoed == "j" and lengte >= 150 and lengte <= 220 and gewicht >= 90 and certificaat == "j" and gewicht <= 120 and ervaring1 >=4 and ervaring2 >=5 and ervaring3 >=3):
     print("gefeliciteerd u bent gesolliciteerd voor een vervolg gesprek.")
 else:
     print("Helaas bent u niet geschikt voor deze sollicitatie.")
