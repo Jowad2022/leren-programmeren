@@ -63,7 +63,8 @@ if question1 == "y":
         print(f"{Waterinfo}")
 
 #Pokemon choice
-while True:
+Areyousure = False
+while Areyousure == "y":
     try:
         Playerpokemon = int(input("Which Starter would you like to choose? 1)fire, 2)grass, 3)water: "))
     except ValueError:
@@ -76,8 +77,6 @@ while True:
         !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         """)
     Areyousure = input("Are you sure with your choice? y/n ")
-    if Areyousure == "y":
-        break
 
 if Playerpokemon == 1:
     print(f"""
