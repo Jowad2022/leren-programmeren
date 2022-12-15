@@ -1,28 +1,15 @@
 from RobotArm import RobotArm
+robotArm = RobotArm('exercise 11')
 
-robotArm = RobotArm('exercise 3')
-
-# Jouw python instructies zet je vanaf hier:
+color = robotArm.scan() 
 robotArm.grab()
-robotArm.moveRight();
-robotArm.drop()
-robotArm.moveLeft();
-robotArm.grab()
-robotArm.moveRight();
-robotArm.drop()
-robotArm.moveLeft();
-robotArm.grab()
-robotArm.moveRight();
-robotArm.drop()
-robotArm.moveLeft();
-robotArm.grab()
-robotArm.moveRight();
-robotArm.drop()
-robotArm.moveLeft();
-
-
-
-
-
-# Na jouw code wachten tot het sluiten van de window:
+if color == "white":
+    robotArm.moveRight()
+    robotArm.drop()
+else:
+    robotArm.drop
+    robotArm.moveRight()
+    robotArm.grab()
+    robotArm.scan()
+        
 robotArm.wait()
