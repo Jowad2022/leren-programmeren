@@ -6,6 +6,6 @@ for y in range(9,0,-2):
     for k in range(y):
         robotArm.moveRight()
     robotArm.drop()
-    for z in range(k,0,-1):
+    for z in range(y-1,0,-1):
         robotArm.moveLeft()
 robotArm.wait()
