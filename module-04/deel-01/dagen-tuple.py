@@ -1,3 +1,4 @@
+#jowad al fartousy
 dagen = ("maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag","zondag")
 
 for x in range(len(dagen)):
