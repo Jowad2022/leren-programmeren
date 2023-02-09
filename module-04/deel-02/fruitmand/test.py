@@ -28,16 +28,7 @@ for x in range(len(fruitmand)):
         else:
             nietrond += 1
             rond -= 1
-#conclusie
-if welrond > nietrond:
-    print(f"""
-    Er zijn {welrond} meer ronde vruchten dan 
-    niet ronde vruchten van de kleur{vraag1}
-    """)
-elif nietrond > welrond:
-    print(f"""
-    Er zijn {nietrond} minder ronde vruchten dan 
-    ronde vruchten van de kleur '{vraag1}'
-    """)
-else:
-    print(f"Evenveel ronde vruchten als niet ronde vruchten")
+
+print(rond)
+print(nietrond)
+print(welrond)

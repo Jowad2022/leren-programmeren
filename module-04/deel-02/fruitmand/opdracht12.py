@@ -11,18 +11,20 @@ for x in range(0, len(fruitmand)):
         naam = fruitmand[x].get("name")
         kleur = fruitmand[x].get("color")
         gewicht = fruitmand[x].get("weight")
-        break
 
-vertaling_van_kleuren = {
-    "green" : "groene",
-    "red" : "rode",
-    "orange" : "oranje",
-    "brown" : "bruin",
-    "black" : "zwart",
-    "yellow" : "gele",
-    "blue" : "blauw",
-    "purple" : "paars",
-    "pink" : "roze"
-}
 
-print(f'De "{naam}" ({lengte} letters) heeft een {kleur} kleur en een gewicht van  {gewicht / 1000} kg.')
+def vertaling_van_kleuren(fruit:str):
+    lijst ={
+        "green" : "groene",
+        "red" : "rode",
+        "orange" : "oranje",
+        "brown" : "bruin",
+        "black" : "zwart",
+        "yellow" : "gele",
+        "blue" : "blauw",
+        "purple" : "paars",
+        "pink" : "roze"
+    }
+    return lijst[fruit]
+
+print(f'De "{naam}" ({lengte} letters) heeft een {vertaling_van_kleuren(kleur)} kleur en een gewicht van  {gewicht / 1000} kg.')
