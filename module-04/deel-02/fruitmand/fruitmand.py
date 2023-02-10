@@ -82,4 +82,4 @@ fruitmand = [{
     'round' : True
 }]
 
-#shuffle(fruitmand)
+shuffle(fruitmand)
