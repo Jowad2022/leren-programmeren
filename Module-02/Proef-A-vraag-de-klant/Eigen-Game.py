@@ -618,4 +618,4 @@ elif Routechoise == 3:
                 ================================================
                 """)
 else:
-    print("you idiot")
+    print("you're an idiot")
